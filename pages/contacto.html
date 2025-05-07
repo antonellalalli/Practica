@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="/images.png/teamwork.png"
+      type="image/x-icon"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+            <img
+            class="icon"
+            src="/images.png/big-data.png"
+            alt="Icon"
+            />
+            <li><a href="index.html">Inicio</a></li>
+          <li><a   href="/pages/marketing.html">Marketing Digital</a></li>
+          <li><a  href="/pages/diseñoGrafico.html">Diseño Gráfico</a></li>
+          <li><a  href="/pages/desarrolloWeb.html">Desarrollo Web</a></li>
+          <li class="hamburger">
+            ☰
+          </li>
+          <li> <a class="active"  href="/pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="mark-content">
+      <h2>Contacto</h2>
+      <p>Estamos listos para ayudarte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+    </div>
+      <section>
+        <div class="contact-container">
+          <div class="contact-content">
+          <label for="Nombre">
+            <input class="contact-input" type="text" id="Nombre" placeholder="Nombre Completo" />
+          </label>
+
+          <label for="CorreoElectronico">
+            <Input  class="contact-input" type="email" id="CorreoElectronico" name="Nombre" placeholder="Correo Electrónico"></Input>
+          </label>
+
+          <label for="Servicio">
+            <select  class="contact-input" id="Servicio" name="Servicio"> 
+              <option value="Seleccione un servicio" selected>Seleccione un servicio</option>
+              <option value="Marketing-Digital">Marketing Digital</option>
+              <option value="Diseño-Grafico">Diseño Gráfico</option>
+              <option value="Desarrollo-Web">Desarrollo Web</option>
+            </select>
+          </label>
+
+          <label for="Comentario">
+            <textarea class="contact-input" name="Nombre" id="Comentario"  placeholder="Tu mensaje"></textarea>
+          </label>
+          <button class="button-serv" type="submit">Enviar Mensaje</button>
+      </div>
+      </div>
+      </section>
+
+      <section>
+        <div class="info-container">
+          <div class="info-ad">
+          <h3>Información adicional</h3>
+          <p>Email: contacto@serviciosdigitales.com </p>
+           <p> Teléfono: +1 234 567 890 </p>
+           <p> Dirección: Calle Principal 123 </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="map-container">
+          <img src="../images.png/Mapa.jpg" alt="Ubicacion">
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy;2025 Servicios Digitales. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
